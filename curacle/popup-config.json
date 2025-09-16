@@ -1,6 +1,6 @@
 {
   "popup_enabled": true,
   "popup_image_url": "https://raw.githubusercontent.com/petpulslab/pippo/refs/heads/main/curacle/popup_image.png",
-  "popup_destination_url": "https://blog.naver.com/curacle_cp01",
+  "popup_blog_url": "https://blog.naver.com/curacle_cp01",
   "popup_form_url": "https://form.naver.com/response/jDn2ROD-U9PcHSV5UDZDvA"
 }
