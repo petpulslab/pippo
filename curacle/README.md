@@ -6,27 +6,61 @@
 
 ```
 docs/curacle/
-├── popup-config.json    # 팝업 설정 JSON 파일
-├── images/             # 팝업 이미지 저장 폴더
-│   └── curacle_popup.png
-└── README.md           # 이 파일
+├── popup-config.json           # 팝업 설정 JSON 파일
+├── simple_result_popup.png     # 검사 결과 화면 팝업 이미지
+├── launch_popup_event.png      # 홈 화면 런치 이벤트 팝업 이미지
+└── README.md                   # 이 파일
 ```
 
 ## popup-config.json 설정
 
 ```json
 {
-  "popup_enabled": true,                    // 팝업 활성화 여부
-  "popup_image_url": "이미지 URL",          // 팝업에 표시할 이미지 URL
-  "popup_destination_url": "이동할 URL"     // 팝업 클릭시 이동할 URL
+  "simple_result_popup": {
+    "popup_enabled": true,
+    "popup_image_url": "https://raw.githubusercontent.com/petpulslab/pippo/refs/heads/main/curacle/simple_result_popup.png",
+    "popup_blog_url": "https://blog.naver.com/curacle_cp01",
+    "popup_form_url": "https://form.naver.com/response/jDn2ROD-U9PcHSV5UDZDvA"
+  },
+  "home_screen_popup": {
+    "popup_enabled": true,
+    "popup_image_url": "https://raw.githubusercontent.com/petpulslab/pippo/refs/heads/main/curacle/launch_popup_event.png",
+    "popup_link_url": "https://smartstore.naver.com/petpulslab/products/10124282845"
+  }
 }
 ```
 
+## 팝업 종류별 설정
+
+### 1. 검사 결과 화면 팝업 (`simple_result_popup`)
+- **표시 위치**: 소변 검사 결과 화면 (`simple_result.dart`)
+- **표시 조건**: 한국어 + (디버그 모드 OR 중요 검사항목 이상)
+- **설정 항목**:
+  - `popup_enabled`: 팝업 활성화 여부
+  - `popup_image_url`: 팝업 이미지 URL
+  - `popup_blog_url`: 상단 5/6 영역 클릭 시 이동할 블로그 URL
+  - `popup_form_url`: 하단 1/6 영역 클릭 시 이동할 폼 URL
+
+### 2. 홈 화면 런치 이벤트 팝업 (`home_screen_popup`)
+- **표시 위치**: 홈 화면 (`home_screen.dart`)
+- **표시 조건**: 한국어 + (디버그 모드 OR 오늘 처음 접속)
+- **설정 항목**:
+  - `popup_enabled`: 팝업 활성화 여부
+  - `popup_image_url`: 팝업 이미지 URL
+  - `popup_link_url`: 이미지 클릭 시 이동할 상품 페이지 URL
+
 ### 설정 변경 방법
 
-1. **팝업 활성화/비활성화**: `popup_enabled` 값을 `true` 또는 `false`로 변경
-2. **이미지 변경**: `images/` 폴더에 새 이미지 업로드 후 `popup_image_url` 수정
-3. **링크 변경**: `popup_destination_url` 값 수정
+#### 검사 결과 팝업 관리
+1. **팝업 활성화/비활성화**: `simple_result_popup.popup_enabled` 값 변경
+2. **이미지 변경**: `simple_result_popup.popup_image_url` 수정
+3. **블로그 링크 변경**: `simple_result_popup.popup_blog_url` 수정
+4. **폼 링크 변경**: `simple_result_popup.popup_form_url` 수정
+
+#### 홈 화면 팝업 관리
+1. **팝업 활성화/비활성화**: `home_screen_popup.popup_enabled` 값 변경
+2. **이미지 변경**: `home_screen_popup.popup_image_url` 수정
+3. **상품 링크 변경**: `home_screen_popup.popup_link_url` 수정
 
 ### 사용 방법
 
