@@ -6,7 +6,7 @@
     "popup_form_url": "https://naver.me/IxK36a2r"
   },
   "home_screen_popup": {
-    "popup_enabled": false,
+    "popup_enabled": true,
     "popup_image_url": "https://raw.githubusercontent.com/petpulslab/pippo/refs/heads/main/curacle/launch_popup_event.png",
     "popup_link_url": "https://smartstore.naver.com/petpulslab/products/10124282845"
   }
