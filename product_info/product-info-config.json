@@ -1,0 +1,97 @@
+{
+  "product_info": {
+    "dog": {
+      "en": {
+        "images": [
+          "https://raw.githubusercontent.com/petpulslab/pippo/refs/heads/main/product_info/images/dog/en/image1_en.webp",
+          "https://raw.githubusercontent.com/petpulslab/pippo/refs/heads/main/product_info/images/dog/en/image2_en.webp",
+          "https://raw.githubusercontent.com/petpulslab/pippo/refs/heads/main/product_info/images/dog/en/image3_en.webp"
+        ]
+      },
+      "ko": {
+        "images": [
+          "https://raw.githubusercontent.com/petpulslab/pippo/refs/heads/main/product_info/images/dog/ko/image1_kr.webp",
+          "https://raw.githubusercontent.com/petpulslab/pippo/refs/heads/main/product_info/images/dog/ko/image2_kr.webp",
+          "https://raw.githubusercontent.com/petpulslab/pippo/refs/heads/main/product_info/images/dog/ko/image3_kr.webp"
+        ]
+      },
+      "ja": {
+        "images": [
+          "https://raw.githubusercontent.com/petpulslab/pippo/refs/heads/main/product_info/images/dog/ja/image1_jp.webp",
+          "https://raw.githubusercontent.com/petpulslab/pippo/refs/heads/main/product_info/images/dog/ja/image2_jp.webp",
+          "https://raw.githubusercontent.com/petpulslab/pippo/refs/heads/main/product_info/images/dog/ja/image3_jp.webp",
+          "https://raw.githubusercontent.com/petpulslab/pippo/refs/heads/main/product_info/images/dog/ja/image4_jp.webp",
+          "https://raw.githubusercontent.com/petpulslab/pippo/refs/heads/main/product_info/images/dog/ja/image5_jp.webp",
+          "https://raw.githubusercontent.com/petpulslab/pippo/refs/heads/main/product_info/images/dog/ja/image6_jp.webp"
+        ]
+      },
+      "es": {
+        "images": [
+          "https://raw.githubusercontent.com/petpulslab/pippo/refs/heads/main/product_info/images/dog/es/image1_es.webp",
+          "https://raw.githubusercontent.com/petpulslab/pippo/refs/heads/main/product_info/images/dog/es/image2_es.webp",
+          "https://raw.githubusercontent.com/petpulslab/pippo/refs/heads/main/product_info/images/dog/es/image3_es.webp",
+          "https://raw.githubusercontent.com/petpulslab/pippo/refs/heads/main/product_info/images/dog/es/image4_es.webp"
+        ]
+      },
+      "zh": {
+        "images": [
+          "https://raw.githubusercontent.com/petpulslab/pippo/refs/heads/main/product_info/images/dog/zh/image1_zh.webp",
+          "https://raw.githubusercontent.com/petpulslab/pippo/refs/heads/main/product_info/images/dog/zh/image2_zh.webp",
+          "https://raw.githubusercontent.com/petpulslab/pippo/refs/heads/main/product_info/images/dog/zh/image3_zh.webp"
+        ]
+      },
+      "vi": {
+        "images": [
+          "https://raw.githubusercontent.com/petpulslab/pippo/refs/heads/main/product_info/images/dog/vi/image1_vi.webp",
+          "https://raw.githubusercontent.com/petpulslab/pippo/refs/heads/main/product_info/images/dog/vi/image2_vi.webp",
+          "https://raw.githubusercontent.com/petpulslab/pippo/refs/heads/main/product_info/images/dog/vi/image3_vi.webp",
+          "https://raw.githubusercontent.com/petpulslab/pippo/refs/heads/main/product_info/images/dog/vi/image4_vi.webp"
+        ]
+      }
+    },
+    "cat": {
+      "en": {
+        "images": [
+          "https://raw.githubusercontent.com/petpulslab/pippo/refs/heads/main/product_info/images/cat/en/cat_image1_en.webp",
+          "https://raw.githubusercontent.com/petpulslab/pippo/refs/heads/main/product_info/images/cat/en/cat_image2_en.webp",
+          "https://raw.githubusercontent.com/petpulslab/pippo/refs/heads/main/product_info/images/cat/en/cat_image3_en.webp"
+        ]
+      },
+      "ko": {
+        "images": [
+          "https://raw.githubusercontent.com/petpulslab/pippo/refs/heads/main/product_info/images/cat/ko/cat_image1_kr.webp",
+          "https://raw.githubusercontent.com/petpulslab/pippo/refs/heads/main/product_info/images/cat/ko/cat_image2_kr.webp",
+          "https://raw.githubusercontent.com/petpulslab/pippo/refs/heads/main/product_info/images/cat/ko/cat_image3_kr.webp"
+        ]
+      },
+      "ja": {
+        "images": [
+          "https://raw.githubusercontent.com/petpulslab/pippo/refs/heads/main/product_info/images/cat/ja/cat_image1_jp.webp",
+          "https://raw.githubusercontent.com/petpulslab/pippo/refs/heads/main/product_info/images/cat/ja/cat_image2_jp.webp",
+          "https://raw.githubusercontent.com/petpulslab/pippo/refs/heads/main/product_info/images/cat/ja/cat_image3_jp.webp"
+        ]
+      },
+      "es": {
+        "images": [
+          "https://raw.githubusercontent.com/petpulslab/pippo/refs/heads/main/product_info/images/cat/es/cat_image1_es.webp",
+          "https://raw.githubusercontent.com/petpulslab/pippo/refs/heads/main/product_info/images/cat/es/cat_image2_es.webp",
+          "https://raw.githubusercontent.com/petpulslab/pippo/refs/heads/main/product_info/images/cat/es/cat_image3_es.webp"
+        ]
+      },
+      "zh": {
+        "images": [
+          "https://raw.githubusercontent.com/petpulslab/pippo/refs/heads/main/product_info/images/cat/zh/cat_image1_zh.webp",
+          "https://raw.githubusercontent.com/petpulslab/pippo/refs/heads/main/product_info/images/cat/zh/cat_image2_zh.webp",
+          "https://raw.githubusercontent.com/petpulslab/pippo/refs/heads/main/product_info/images/cat/zh/cat_image3_zh.webp"
+        ]
+      },
+      "vi": {
+        "images": [
+          "https://raw.githubusercontent.com/petpulslab/pippo/refs/heads/main/product_info/images/cat/vi/cat_image1_vi.webp",
+          "https://raw.githubusercontent.com/petpulslab/pippo/refs/heads/main/product_info/images/cat/vi/cat_image2_vi.webp",
+          "https://raw.githubusercontent.com/petpulslab/pippo/refs/heads/main/product_info/images/cat/vi/cat_image3_vi.webp"
+        ]
+      }
+    }
+  }
+}
